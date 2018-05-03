@@ -1,0 +1,28 @@
+body {
+    background-image: url(../images/concrete_wall.png);
+}
+
+.jumbotron {
+    background-image: url(../images/white_wall.png);
+    border: 7px double black;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+#stopLight {
+    width: 90px;
+    height: 90px;
+}
+
+#train {
+    width: 90px;
+    height: 90px;
+}
+
+#railRoadCrossing {
+    width: 90px;
+    height: 90px;
+}
