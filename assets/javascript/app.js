@@ -67,7 +67,7 @@ $(document).ready(function () {
     });
 
     // WHEN SUBMIT BUTTON IS CLICKED, THE INPUT WILL BE CAPTURED
-    $("#addTrainButton").on("click", function () {
+    $("#addTrainButton").on("click", function (event) {
         event.preventDefault();
 
         // CAPTURE USER INPUTS AND STORE THEM INTO VARIABLES
